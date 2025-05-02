@@ -12,7 +12,7 @@
     "prepare": "husky",
     "lint-staged": "lint-staged",
     "format": "prettier --check .",
-    "format:fix": "prettier --write ."
+    "format:fix": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,html}'"
   },
   "dependencies": {
     "next": "15.3.1",
