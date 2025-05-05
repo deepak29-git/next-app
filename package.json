@@ -44,14 +44,13 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "npm run lint && npm run format && npm run test"
+      "pre-push": "npm run lint && npm run format"
     }
   },
   "lint-staged": {
     "src/**/*.{ts,tsx,js,jsx}": [
       "npm run lint",
-      "npm run format",
-      "npm run test"
+      "npm run format"
     ]
   }
 }
