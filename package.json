@@ -9,8 +9,6 @@
     "lint": "eslint src --ext ts,tsx,js,jsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint src --ext ts,tsx,js,jsx --fix",
     "test": "vitest",
-    "prepare": "husky",
-    "lint-staged": "lint-staged",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx,css,html}'"
   },
   "dependencies": {
