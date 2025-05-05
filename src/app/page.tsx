@@ -1,10 +1,7 @@
-import Link from "next/link";
+import React from "react";
 
-export default function Page() {
-  return (
-    <div>
-      <h1>Home hello world 6</h1>
-      <Link href="/about">About deepak</Link>
-    </div>
-  );
+function page() {
+  return <div>page</div>;
 }
+
+export default page;
